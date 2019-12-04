@@ -1,0 +1,20 @@
+{
+  "name": "12-web-app-server",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "PORT=${PORT:-3000} NODE_ENV=production node app.js",
+    "dev": "PORT=${PORT:-3000} NODE_ENV=development nodemon app.js"
+  },
+  "author": "Olga Miliukova",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "nodemon": "^2.0.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
