@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "start": "PORT=${PORT:-3000} NODE_ENV=production node app.js",
-    "dev": "PORT=${PORT:-3000} NODE_ENV=development nodemon app.js"
+    "start": "PORT=3000 NODE_ENV=production node app.js",
+    "dev": "PORT=3000 NODE_ENV=development nodemon app.js"
   },
   "author": "Olga Miliukova",
   "license": "MIT",
@@ -15,6 +15,7 @@
     "nodemon": "^2.0.1"
   },
   "dependencies": {
+    "cross-env": "^6.0.3",
     "express": "^4.17.1"
   }
 }
